@@ -7,10 +7,10 @@ package hb.ntnu.idatt2001;
     String socialSecurityNumber;
 
      public Person(String firstName, String lastName, String socialSecurityNumber){
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.socialSecurityNumber = socialSecurityNumber;
-    }
+         this.firstName = firstName;
+         this.lastName = lastName;
+         this.socialSecurityNumber = socialSecurityNumber;
+     }
 
      public String getFirstName() {
          return firstName;
