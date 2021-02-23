@@ -6,17 +6,18 @@ import java.util.Iterator;
 public class Hospital<Department> {
 
     private final String hospitalName;
+    private final HashMap<String, Department> departments;
 
-    public Hospital (String hospitalName){
-        this.hospitalName=hospitalName;
-        HashMap<String, Department> departments = new HashMap<>();
+    public Hospital(String hospitalName, HashMap<String, Department> departments){
+        this.hospitalName = hospitalName;
+        departments = new HashMap<>();
     }
     public String getHospitalName() {
         return hospitalName;
     }
 
     public Iterator<Department> getGetDepartments() {
-        return getDepartments;
+        return departments.values().iterator();
     }
 
 

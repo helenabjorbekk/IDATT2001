@@ -2,9 +2,9 @@ package hb.ntnu.idatt2001;
 
  public abstract class Person {
 
-    String firstName;
-    String lastName;
-    String socialSecurityNumber;
+    private String firstName;
+    private String lastName;
+    private String socialSecurityNumber;
 
      public Person(String firstName, String lastName, String socialSecurityNumber){
          this.firstName = firstName;
