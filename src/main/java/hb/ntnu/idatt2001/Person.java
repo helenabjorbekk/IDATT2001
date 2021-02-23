@@ -1,6 +1,6 @@
 package hb.ntnu.idatt2001;
 
- abstract class Person {
+ public abstract class Person {
 
     String firstName;
     String lastName;
