@@ -4,6 +4,7 @@ package hb.ntnu.idatt2001;
 
     private String firstName;
     private String lastName;
+    private String fullName;
     private String socialSecurityNumber;
 
      public Person(String firstName, String lastName, String socialSecurityNumber){
