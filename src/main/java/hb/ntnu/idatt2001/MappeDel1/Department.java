@@ -58,7 +58,6 @@ public class Department {
      */
     }
     public void remove(Person person) throws RemoveException{
-        this.
     }
 
     /*
